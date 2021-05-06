@@ -9,6 +9,7 @@ def main():
    print("Welcome to post-commit hook!")
    for arg in sys.argv:
       print("Argument " + str(i) + ": " + arg)
+      i = i + 1
    sys.exit(0)
 
 
