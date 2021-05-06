@@ -3,6 +3,7 @@
 Hello. Thank you for being here. This repository belongs to the youtube video [How to use GIT HOOKS for better COMMITS](https://youtu.be/EvpZkdkp-v0).
 If you haven't seen it, please consider watching the video, to get a better understanding of this code.
 
+
 <p align="center">
   <a href="https://youtu.be/EvpZkdkp-v0" target="_blank">
     <img src="http://i3.ytimg.com/vi/EvpZkdkp-v0/hqdefault.jpg" alt="How to use GIT HOOKS for better COMMITS">

@@ -3,11 +3,11 @@
 import sys
 import re
 from submodules.rules import rules
-from phue import Bridge
+#from phue import Bridge
 
-HUE_ACTIVE = False
-HUE_BRIDGE_IP = "<enter your ip here>"
-HUE_INDICATOR_LIGHT_NAME = "<enter the name of the light you want to control from this hook here>"
+#HUE_ACTIVE = False
+#HUE_BRIDGE_IP = "<enter your ip here>"
+#HUE_INDICATOR_LIGHT_NAME = "<enter the name of the light you want to control from this hook here>"
 
 def main():
 	with open(sys.argv[1], "r") as fp:
@@ -22,11 +22,11 @@ def main():
 				continue
 
 			if not line_valid(idx, line):
-				hue_red()
+#				hue_red()
 				show_rules()
 				sys.exit(1)
 
-	hue_green()
+#	hue_green()
 	sys.exit(0)
 
 def line_valid(idx, line):
